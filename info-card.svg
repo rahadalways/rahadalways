@@ -1,0 +1,171 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 490 490" width="490" height="490">
+  <defs>
+    <linearGradient id="infoCardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e0e11" />
+      <stop offset="50%" stop-color="#0a0a0c" />
+      <stop offset="100%" stop-color="#050507" />
+    </linearGradient>
+
+    <linearGradient id="infoBorderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0.5" />
+      <stop offset="30%" stop-color="#2a2a2e" stop-opacity="0.8" />
+      <stop offset="70%" stop-color="#1b1b1f" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0.3" />
+    </linearGradient>
+
+    <linearGradient id="barGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" />
+      <stop offset="50%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#00f2fe" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    @keyframes rowIn {
+      from { opacity: 0; transform: translateX(-4px); }
+      to { opacity: 1; transform: translateX(0); }
+    }
+    .term-title {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'JetBrains Mono', monospace;
+      font-size: 11px;
+      font-weight: 600;
+      fill: #8b949e;
+      letter-spacing: 0.5px;
+    }
+    .key {
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      fill: #D4AF37;
+      letter-spacing: 0.5px;
+    }
+    .separator {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      font-weight: 600;
+      fill: #4b5563;
+    }
+    .val {
+      font-family: 'JetBrains Mono', 'Segoe UI', monospace;
+      font-size: 10.8px;
+      font-weight: 500;
+      letter-spacing: 0.3px;
+    }
+    .term-badge {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9.5px;
+      font-weight: 600;
+      fill: #10b981;
+    }
+    .palette-box {
+      rx: 2;
+      ry: 2;
+    }
+    .row-0 { animation: rowIn 0.45s ease-out 0.100s forwards; opacity: 0; }
+      .row-1 { animation: rowIn 0.45s ease-out 0.150s forwards; opacity: 0; }
+      .row-2 { animation: rowIn 0.45s ease-out 0.200s forwards; opacity: 0; }
+      .row-3 { animation: rowIn 0.45s ease-out 0.250s forwards; opacity: 0; }
+      .row-4 { animation: rowIn 0.45s ease-out 0.300s forwards; opacity: 0; }
+      .row-5 { animation: rowIn 0.45s ease-out 0.350s forwards; opacity: 0; }
+      .row-6 { animation: rowIn 0.45s ease-out 0.400s forwards; opacity: 0; }
+      .row-7 { animation: rowIn 0.45s ease-out 0.450s forwards; opacity: 0; }
+      .row-8 { animation: rowIn 0.45s ease-out 0.500s forwards; opacity: 0; }
+      .row-9 { animation: rowIn 0.45s ease-out 0.550s forwards; opacity: 0; }
+      .row-10 { animation: rowIn 0.45s ease-out 0.600s forwards; opacity: 0; }
+      .row-11 { animation: rowIn 0.45s ease-out 0.650s forwards; opacity: 0; }
+  </style>
+
+  <rect x="1" y="1" width="488" height="488" rx="14" fill="url(#infoCardBg)" stroke="url(#infoBorderGrad)" stroke-width="1.5" />
+  <path d="M 1 15 C 1 7.268 7.268 1 15 1 L 475 1 C 482.732 1 489 7.268 489 15 L 489 38 L 1 38 Z" fill="#141419" />
+  <line x1="1" y1="38" x2="489" y2="38" stroke="#222228" stroke-width="1" />
+
+  <circle cx="20" cy="19" r="5.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.5" />
+  <circle cx="36" cy="19" r="5.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.5" />
+  <circle cx="52" cy="19" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.5" />
+
+  <text class="term-title" x="245.0" y="23" text-anchor="middle">The Cipher Stack // System Info</text>
+  <text class="term-badge" x="472" y="23" text-anchor="end">+ ONLINE</text>
+
+  <g>
+    <g class="row-0">
+      <text class="key" x="22" y="66.0">USER</text>
+      <text class="separator" x="115" y="66.0">+</text>
+      <text class="val" fill="#00f2fe" x="135" y="66.0">rahad</text>
+    </g>
+    <g class="row-1">
+      <text class="key" x="22" y="91.5">HOST</text>
+      <text class="separator" x="115" y="91.5">+</text>
+      <text class="val" fill="#e6edf3" x="135" y="91.5">Rahad Hasan (@rahadalways)</text>
+    </g>
+    <g class="row-2">
+      <text class="key" x="22" y="117.0">ROLE</text>
+      <text class="separator" x="115" y="117.0">+</text>
+      <text class="val" fill="#f59e0b" x="135" y="117.0">Full Stack Engineer</text>
+    </g>
+    <g class="row-3">
+      <text class="key" x="22" y="142.5">LOCATION</text>
+      <text class="separator" x="115" y="142.5">+</text>
+      <text class="val" fill="#e6edf3" x="135" y="142.5">Dhaka, Bangladesh [UTC+6]</text>
+    </g>
+    <g class="row-4">
+      <text class="key" x="22" y="168.0">UPTIME</text>
+      <text class="separator" x="115" y="168.0">+</text>
+      <text class="val" fill="#10b981" x="135" y="168.0">Building &amp; Shipping 24/7</text>
+    </g>
+    <g class="row-5">
+      <text class="key" x="22" y="193.5">FRONTEND</text>
+      <text class="separator" x="115" y="193.5">+</text>
+      <text class="val" fill="#38bdf8" x="135" y="193.5">React + TypeScript + Next.js + Tailwind + Three.js</text>
+    </g>
+    <g class="row-6">
+      <text class="key" x="22" y="219.0">BACKEND</text>
+      <text class="separator" x="115" y="219.0">+</text>
+      <text class="val" fill="#818cf8" x="135" y="219.0">Node.js + Express + Python + MySQL + Supabase</text>
+    </g>
+    <g class="row-7">
+      <text class="key" x="22" y="244.5">MOBILE</text>
+      <text class="separator" x="115" y="244.5">+</text>
+      <text class="val" fill="#ec4899" x="135" y="244.5">React Native + Flutter</text>
+    </g>
+    <g class="row-8">
+      <text class="key" x="22" y="270.0">TOOLS</text>
+      <text class="separator" x="115" y="270.0">+</text>
+      <text class="val" fill="#a7f3d0" x="135" y="270.0">Git + GitHub Actions + Docker + Postman + Vercel</text>
+    </g>
+    <g class="row-9">
+      <text class="key" x="22" y="295.5">PORTFOLIO</text>
+      <text class="separator" x="115" y="295.5">+</text>
+      <text class="val" fill="#fbbf24" x="135" y="295.5">https://rahadhasan.com</text>
+    </g>
+    <g class="row-10">
+      <text class="key" x="22" y="321.0">EMAIL</text>
+      <text class="separator" x="115" y="321.0">+</text>
+      <text class="val" fill="#e6edf3" x="135" y="321.0">rahad@rahadhasan.com</text>
+    </g>
+    <g class="row-11">
+      <text class="key" x="22" y="346.5">STATUS</text>
+      <text class="separator" x="115" y="346.5">+</text>
+      <text class="val" fill="#34d399" x="135" y="346.5">+ Open to High-Impact Opportunities</text>
+    </g>
+  </g>
+
+  <line x1="1" y1="438" x2="489" y2="438" stroke="#1f1f26" stroke-width="1" />
+  <text class="key" x="22" y="456">SYSTEM_LOAD</text>
+  <rect x="115" y="447" width="160" height="11" rx="4" fill="#1a1a22" stroke="#2a2a35" stroke-width="0.8" />
+  <rect x="116" y="448" width="138" height="9" rx="3" fill="url(#barGradient)" />
+  <text class="val" fill="#10b981" x="284" y="456">88% OPTIMIZED</text>
+
+  <g transform="translate(355, 447)">
+    <rect class="palette-box" x="0" y="0" width="12" height="11" fill="#ff5f56" />
+    <rect class="palette-box" x="15" y="0" width="12" height="11" fill="#ffbd2e" />
+    <rect class="palette-box" x="30" y="0" width="12" height="11" fill="#27c93f" />
+    <rect class="palette-box" x="45" y="0" width="12" height="11" fill="#00f2fe" />
+    <rect class="palette-box" x="60" y="0" width="12" height="11" fill="#818cf8" />
+    <rect class="palette-box" x="75" y="0" width="12" height="11" fill="#ec4899" />
+    <rect class="palette-box" x="90" y="0" width="12" height="11" fill="#D4AF37" />
+    <rect class="palette-box" x="105" y="0" width="12" height="11" fill="#e6edf3" />
+  </g>
+
+  <text class="val" fill="#6e7681" x="22" y="478">CIPHER_ENV: v3.4.0-release</text>
+  <text class="val" fill="#6e7681" x="468" y="478" text-anchor="end">KERNEL: LINUX_x86_64</text>
+</svg>
