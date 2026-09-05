@@ -44,10 +44,10 @@
 
   <g transform="translate(360, 18)">
     <rect x="0" y="0" width="115" height="22" rx="11" fill="#141419" stroke="#D4AF37" stroke-width="0.8" />
-    <text class="badge-pill" x="57.5" y="14.5" fill="#D4AF37" text-anchor="middle">TOTAL: 39</text>
+    <text class="badge-pill" x="57.5" y="14.5" fill="#D4AF37" text-anchor="middle">TOTAL: 41</text>
 
     <rect x="125" y="0" width="115" height="22" rx="11" fill="#141419" stroke="#10b981" stroke-width="0.8" />
-    <text class="badge-pill" x="182.5" y="14.5" fill="#10b981" text-anchor="middle">STREAK: 0 DAYS</text>
+    <text class="badge-pill" x="182.5" y="14.5" fill="#10b981" text-anchor="middle">STREAK: 2 DAYS</text>
 
     <rect x="250" y="0" width="115" height="22" rx="11" fill="#141419" stroke="#00f2fe" stroke-width="0.8" />
     <text class="badge-pill" x="307.5" y="14.5" fill="#00f2fe" text-anchor="middle">MAX: 2 DAYS</text>
@@ -442,8 +442,8 @@
   <rect class="contrib-cell" x="754.4" y="107.4" width="10.5" height="10.5" rx="2.5" fill="#161b22"><title>0 contributions on 2026-09-01</title></rect>
   <rect class="contrib-cell" x="754.4" y="121.1" width="10.5" height="10.5" rx="2.5" fill="#161b22"><title>0 contributions on 2026-09-02</title></rect>
   <rect class="contrib-cell" x="754.4" y="134.8" width="10.5" height="10.5" rx="2.5" fill="#161b22"><title>0 contributions on 2026-09-03</title></rect>
-  <rect class="contrib-cell" x="754.4" y="148.5" width="10.5" height="10.5" rx="2.5" fill="#161b22"><title>0 contributions on 2026-09-04</title></rect>
-  <rect class="contrib-cell" x="754.4" y="162.2" width="10.5" height="10.5" rx="2.5" fill="#161b22"><title>0 contributions on 2026-09-05</title></rect>
+  <rect class="contrib-cell" x="754.4" y="148.5" width="10.5" height="10.5" rx="2.5" fill="#006d32"><title>1 contributions on 2026-09-04</title></rect>
+  <rect class="contrib-cell" x="754.4" y="162.2" width="10.5" height="10.5" rx="2.5" fill="#006d32"><title>1 contributions on 2026-09-05</title></rect>
 
   <g transform="translate(690, 196)">
     <text class="legend-text" x="-32" y="9.5">Less</text>
