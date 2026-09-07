@@ -47,7 +47,7 @@
     <text class="badge-pill" x="57.5" y="14.5" fill="#D4AF37" text-anchor="middle">TOTAL: 41</text>
 
     <rect x="125" y="0" width="115" height="22" rx="11" fill="#141419" stroke="#10b981" stroke-width="0.8" />
-    <text class="badge-pill" x="182.5" y="14.5" fill="#10b981" text-anchor="middle">STREAK: 2 DAYS</text>
+    <text class="badge-pill" x="182.5" y="14.5" fill="#10b981" text-anchor="middle">STREAK: 0 DAYS</text>
 
     <rect x="250" y="0" width="115" height="22" rx="11" fill="#141419" stroke="#00f2fe" stroke-width="0.8" />
     <text class="badge-pill" x="307.5" y="14.5" fill="#00f2fe" text-anchor="middle">MAX: 2 DAYS</text>
